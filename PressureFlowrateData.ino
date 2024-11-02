@@ -5,8 +5,8 @@ const int numReadings = 10; // Number of readings for averaging
 const float trueVoltage = 5;
 const float minVoltage = 0.5 * 1024 / trueVoltage;
 const float maxVoltage = 4.5 * 1024 / trueVoltage;
-const float minPressure = 5.0;
-const float maxPressure = 300.0;
+const float minPressure = 0.0;
+const float maxPressure = 100.0;
 
 // Pressure sensor pins
 const int pressureInput1 = A0; // Pressure Sensor 1
